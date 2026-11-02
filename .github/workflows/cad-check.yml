@@ -1,0 +1,17 @@
+name: CAD toolchain smoke test
+on:
+  push:
+  pull_request:
+jobs:
+  smoke:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install CAD dependencies and run tests
+        run: |
+          bash scripts/setup.sh
+          bash scripts/smoke_test.sh
