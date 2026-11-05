@@ -1,0 +1,5 @@
+[
+  {"exercise":"2-2","units":"mm","entities":86,"outline_entities":26,"dxf_audit_errors":0,"dxf_audit_fixes":0,"geometry_extents":[[0,0,0],[125,110,0]],"passed":true},
+  {"exercise":"2-5","units":"mm","entities":72,"outline_entities":16,"dxf_audit_errors":0,"dxf_audit_fixes":0,"geometry_extents":[[0,0,0],[96,64,0]],"passed":true},
+  {"exercise":"2-6","units":"mm","entities":54,"outline_entities":17,"dxf_audit_errors":0,"dxf_audit_fixes":0,"geometry_extents":[[-40,-20,0],[40,100,0]],"passed":true}
+]
